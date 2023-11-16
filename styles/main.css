@@ -73,11 +73,16 @@ ul#qualifications--list li {
   padding: 1em;
 }
 
-.section--page {
+.section--page,
+.section--skills {
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
+.section--stack {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
 #wrapper--hero {
   display: flex;
   align-items: center;
@@ -104,6 +109,8 @@ span {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
+  border: 0.3rem solid var(--mainLinkColor-light);
+  box-shadow: 0 0 40px var(--mainLinkColor-light);
 }
 
 #email {
